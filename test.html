@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+  <script src='test.js'></script>
+  <script src='testSource.js'></script>
+  <script src='https://cdn.rawgit.com/ethereum/web3.js/master/dist/web3.js'></script>
+  <link href='test.css' rel='stylesheet'></link>
+</head>
+<body>
+  <div class='section' id='contracts'></div>
+  <div class='section' id='testchain'></div>
+  <div class='section'>
+    debug menu
+    <button onclick='startMining()'>Start Mining</button>
+    <button onclick='stopMining()'>Stop Mining</button>
+    <button onclick='generateAccount()'>Generate Account</button>
+    <br><br>
+    <div id='accountsDisplay' class='data'></div>
+  </div>
+</body>
+</html>

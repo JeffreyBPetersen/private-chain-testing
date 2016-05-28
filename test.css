@@ -1,0 +1,16 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.data {
+  font-family: monospace;
+}
+
+.section {
+  background-color: rgba(0,0,0,.1);/*background-color: #DDD;*/
+  /*display: table;*/
+  margin: 1em;
+  padding: 1em;
+}
